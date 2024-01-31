@@ -1,12 +1,17 @@
 
-
+import Bharti from "./Bharti"
 
 
 
 function App() {
   
   return (
-    <h1>Hello React with Vite</h1>
+    // This is called fragment in React js - <> </>
+    <>   
+      <Bharti />
+      <h2>I am a Good Boy</h2>
+      <p>Test paragraph</p>
+    </>
   )
 }
 
